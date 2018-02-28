@@ -1,5 +1,7 @@
 # tripPlanning
 
+Live example - https://seryh.github.io/tripplanning/
+
 ## Requirements
 * node `^8.5`
 * yarn `^1.0` or npm `^5.4`
