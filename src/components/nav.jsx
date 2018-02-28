@@ -53,9 +53,9 @@ export class Nav extends Component {
                  onClick={ (e) => {
                    e.preventDefault()
                    router.push(urlUpdate(null, params => _.pick(params, ['lang']),
-                                         `${urlClean(location.pathname)}/report`))
+                                         `${urlClean(basePath)}/report`))
           } }
-          checked={ location.pathname == `${urlClean(basePath)}/report` }>
+          checked={ urlClean(location.pathname) == `${urlClean(basePath)}/report` }>
           Report
         </TabItem>
 
