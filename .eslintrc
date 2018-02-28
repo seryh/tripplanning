@@ -1,0 +1,9 @@
+{
+  "extends": ["standard", "standard-react"],
+
+  "rules": {
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "jsx-quotes": ["error", "prefer-double"],
+    "no-unused-vars": ["error", { "vars": "all", "args": "none", "ignoreRestSiblings": false }]
+  }
+}

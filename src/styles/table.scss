@@ -1,0 +1,41 @@
+$baseColor: #1e89a8;
+$borderRadius: 10px;
+$imageBig: 100px;
+$imageSmall: 60px;
+$padding: 10px;
+
+.iwns__main-container {
+   
+    table {
+        width: 100%;
+        td, th { 
+            color: darken($baseColor, 10%);
+            padding: $padding;
+        }
+        
+        td {
+            text-align: center;
+            vertical-align: middle;
+            
+            &:last-child {
+                font-size: 0.95em;
+                line-height: 1.4;
+                text-align: left;
+            }
+        }
+        
+        th { 
+            background-color: lighten($baseColor, 50%);
+            font-weight: 300;
+        }
+        
+        tr {     
+            &:nth-child(2n) { background-color: lighten($baseColor, 55%); }
+            &:nth-child(2n+1) { background-color: lighten($baseColor, 55%); }
+        }
+    }
+
+
+    
+}
+

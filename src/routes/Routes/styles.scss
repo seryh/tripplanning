@@ -1,0 +1,30 @@
+.routes-container {
+    
+}
+
+.routes-container__select-city-container {
+
+    padding-top: 20px;
+    
+    .input__autocomplete-case {
+        margin-right: 15px;
+        
+    }
+}
+
+.city-component {
+    position: relative;
+}
+
+table.agent-component {
+    margin-bottom: 10px;
+    th { 
+        background-color: #fff;
+        font-weight: 300;
+    }
+    
+    tr {     
+        &:nth-child(2n) { background-color: #fff; }
+        &:nth-child(2n+1) { background-color: #fff }
+    }
+}

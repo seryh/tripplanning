@@ -1,0 +1,61 @@
+/**
+ * NB#2: На ОС семейства Windows версий XP-8.1 на которых не было установлено обновление
+ * https://support.microsoft.com/ru-ru/help/2970228/update-to-support-the-new-currency-symbol-for-the-russian-ruble-in-win
+ * отсутствует поддержка символа российского рубля. Для решения этой проблемы мы используем
+ * односимвольный шрифт Roboto Rouble (~3kb gzipped).
+ * (c) https://github.com/alfa-laboratory/arui-feather/blob/master/src/vars/font.css
+ */
+@import 'fonts/font-roboto-ruble.css';
+
+@import 'vars';
+@import 'preloader';
+@import 'simple-grid';
+@import 'table';
+
+html {
+    box-sizing: border-box;
+    font-family: $font-stack;
+}
+
+html,
+body {
+    font-family: $font-stack;
+    font-weight: $font-weight;
+    margin: 0;
+    padding: 0;
+    //   background: $iw-base-color10;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    font-family: $font-stack;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    font-family: $font-stack;
+}
+
+input, textarea, button {
+    font-family: $font-stack;
+}
+
+
+.iwns__main-container {
+    padding: 18px;
+    margin: auto;
+
+}
