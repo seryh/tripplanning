@@ -8,6 +8,10 @@ import Button from 'arui-feather/button'
 import Input from 'arui-feather/input'
 import CalendarInput from 'arui-feather/calendar-input'
 
+// TODO: на большом количестве элементов
+// есть проблема с производительностью, вызванная - CalendarInput
+// так как на каждый экземпляр agent создается по 2 CalendarInput
+// для решения нужно создавать CalendarInput динамически например по клику на input.
 
 @cn('agent-component')
 export class Agents extends Component {
